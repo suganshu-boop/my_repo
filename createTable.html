@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+    <img src="Screen.png"
+    widhth="400px";
+    height="300px";
+    />
+    <br>
+    <h1>Welcome To CodeHelp</h1>
+    <h2>Contact Us Form</h2>
+
+    <label for="name">Name </label>
+    <input type="text" name="name">
+    <br/>
+    <label for="email">Email</label>
+    <input type="text" name="email">
+    <br/>
+    <label for="contact">Contact Number</label>
+    <input type="number" name="contact">
+    <br/>
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select>
+    <br>
+    <label for="dob">Date Of Birth</label>
+    <input type="datetime-local" name="dob">
+    <br>
+    <fieldset>
+        <legend>Rating</legend>
+        <div>
+         <input type="radio" name="rating" id="1">
+        <label for="1">1</label>
+      
+        <input type="radio" name="rating" id="2" >
+        <label for="2">2</label>
+
+        <input type="radio" name="rating" id="3">
+        <label for="3">3</label>
+        </div>
+    </fieldset>
+    <!--id is for individual button and name for grouping together-->
+   <form action="/submit-message" method="post">
+   
+  <div>
+    <!-- The label provides accessibility and a clickable area -->
+    <label id="message-label" for="user-message">Enter your message:</label>
+     <br>
+    <!-- The textarea element allows multi-line message entry -->
+    <textarea 
+      id="user-message" 
+      name="message_content" 
+      rows="5" 
+      cols="30" 
+      placeholder="Type your message here..."
+      required>
+    </textarea>
+  </div>
+  
+ <button>Send</button> <button>Reset</button>
+</form>
+
+   <footer>
+    <div class="social-icons">
+    <a href="https://www.youtube.com" target="_blank">
+      
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAb1BMVEX/////AAD/lJT/8PD/6en/+/v/EhL/fX3/9PT/Hx//2dn/5OT/nJz/3t7/QkL/e3v/uLj/b2//o6P/dnb/Jib/PDz/ior/mJj/W1v/S0v/MTH/hYX/Z2f/YGD/T0//Njb/y8v/sLD/wMD/qan/VVUtPngKAAACRUlEQVR4nO2Z226rMBBFMbbBQLiUkCuhAcL/f2NTKrU6VWPcskkinb2Udy9hZ7w943mEEEIIIYQQQgghhBBCCCGEkKXRWhsppVJpkiYfP6WkNNJofUcNlbZFufPDdbM/ZJsoisSPBFG1yQ7DKQz9Xde3qVpQqQiz6mcLO1UWFssY6TL4i9An5QI7qvNZSldyvNV+rpMQe7RTN99JiA7rJI8IqaOEShUIJyGw/8EXjNQL0smcMVJnA5SKb1Tu3xLFQKke4yRED5S6oKSQRWGFkloBpXyUlA+Uqm0L1Vv36FADpULbQjsvPblKhTgnvbYt9L4l7cFNao1LCtr6JcZzYi5OaesElGompTwvqR20GpyUeXWQupZYq/vIK+6eMRsnqWuRnTpamwdIedJaPLBS1pDwb0FU1pRzxElJ6xH+VqV1b/muES57/krqyuVm0gko9YXuLYnwQVKJtfo/REpNvKMfIVVmdieklLEGpq9rZphQEqK6c/FM1g4XMrKiW3dllJIrp+gClNLWlssY8hxfq8CUYM9TOy927hMB85Q9Dtdb9/czMA57W+dVJ9jinJ7zMQpqT2EbVO28xvAnQQuUSlGtoBQopVFNM2jX+hnbi8/ZiFWYljV4cFQipEqsk+dNZ6VJBvhwRlt7VC6ES4yxulnFKuoWGpb2/vCngnXe+8he9XdMEvdFuarzvBkO2fHGuDaIoirLhibPQ78s+jhBDhqmGAfbRiqlknhkHGwbqe861yaEEEIIIYQQQgghhBBCCCHkv+UNO24hI2+QY/QAAAAASUVORK5CYII="
+      width="50"
+      height="50"/>
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png"
+      width="50"
+      height="50"/>
+    </a>
+     <a href="https://www.telegram.com" target="_blank">
+      <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/telegram-icon.png"
+      width="50"
+      height="50"/>
+    </a>
+   </div>
+
+   </footer>
+</body>
+</html>
